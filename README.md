@@ -1,4 +1,4 @@
-# SerwerSMS - Perl
+ï»¿# SerwerSMS - Perl
 
 Klient Perl do komunikacji zdalnej z API v2 SerwerSMS.pl
 
@@ -13,9 +13,9 @@ lub
 
 ```
 
-Zalecane jest, aby komunikacja przez HTTPS API odbywa³a siê z loginów utworzonych specjalnie do po³¹czenia przez API. Konto u¿ytkownika API mo¿na utworzyæ w Panelu Klienta ? Ustawienia interfejsów ? HTTPS XML API ? U¿ytkownicy.
+Zalecane jest, aby komunikacja przez HTTPS API odbywaÅ‚a siÄ™ z loginÃ³w utworzonych specjalnie do poÅ‚Ä…czenia przez API. Konto uÅ¼ytkownika API moÅ¼na utworzyÄ‡ w Panelu Klienta â†’ Ustawienia interfejsÃ³w â†’ HTTPS XML API â†’ UÅ¼ytkownicy.
 
-Przyk³adowe wywo³anie
+PrzykÅ‚adowe wywoÅ‚anie
 ```perl
         use lib "path_to_SerwerSMS.pm";
         use lib "path_to_lib_SerwerSMS";
@@ -36,7 +36,7 @@ Przyk³adowe wywo³anie
                 print "error: $_";
         };
 ```
-Wysy³ka SMS
+WysyÅ‚ka SMS
 ```perl
     try {
             
@@ -65,7 +65,7 @@ Wysy³ka SMS
             print "error: $_";
     };
 ```        
-Wysy³ka spersonalizowanych SMS
+WysyÅ‚ka spersonalizowanych SMS
 ```perl
     try {
             
@@ -82,7 +82,7 @@ Wysy³ka spersonalizowanych SMS
             print "error: $_";
     };
 ```
-Pobieranie raportów dorêczeñ
+Pobieranie raportÃ³w dorÄ™czeÅ„
 ```perl
     try {
             
@@ -94,7 +94,7 @@ Pobieranie raportów dorêczeñ
             print "error: $_";
     };
 ```
-Pobieranie wiadomoœci przychodz¹cych
+Pobieranie wiadomoÅ›ci przychodzÄ…cych
 ```perl
     try {
             
