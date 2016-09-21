@@ -4,9 +4,6 @@
 # @Author SerwerSMS
 # @Created 2016-01-29 11:39:22
 #
-
-
-
 package SerwerSMS{  
     
     use JSON::XS;
@@ -32,6 +29,7 @@ package SerwerSMS{
     my $password;
     my $api_url = 'https://api2.serwersms.pl/';
     my $format = 'json';
+	my $system = 'client_perl';
 
     sub new{
         my ($class, $login,$passwd) = @_;
@@ -64,6 +62,8 @@ package SerwerSMS{
         my ($url, %params) = @_;
         $params{'username'}  = $username;
         $params{'password'}  = $password;
+		$params{'system'}  = $system;
+		
         my $uri = $api_url.$url;
         my $json = encode_json \%params;
         
